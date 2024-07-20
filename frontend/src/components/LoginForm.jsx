@@ -70,7 +70,6 @@ const LoginForm = () => {
           <img src="https://cdns.iconmonstr.com/wp-content/releases/preview/2012/240/iconmonstr-github-1.png" alt="GitHub" />
           <img src="https://static-00.iconduck.com/assets.00/linkedin-icon-256x256-k7c74t1i.png" alt="LinkedIn" />
         </div>
-        <br />
         <div className="signup">
           <button type="button" onClick={() => navigate('/home')}>Guest User</button>
         </div>
