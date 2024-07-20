@@ -62,7 +62,7 @@ const LoginForm = () => {
         <div className="signup">
           <p>New user?</p>
           <button type="button" onClick={() => navigate('/signup')}>Signup Now</button>
-          
+
         </div>
         <div className="social-signup">
           <p>May also signup with</p>
@@ -71,7 +71,9 @@ const LoginForm = () => {
           <img src="https://static-00.iconduck.com/assets.00/linkedin-icon-256x256-k7c74t1i.png" alt="LinkedIn" />
         </div>
         <br />
-        <button type="button" onClick={() => navigate('/home')}>Guest User</button>
+        <div className="signup">
+          <button type="button" onClick={() => navigate('/home')}>Guest User</button>
+        </div>
       </form>
     </div>
   );
