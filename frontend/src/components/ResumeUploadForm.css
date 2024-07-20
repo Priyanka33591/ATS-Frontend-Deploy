@@ -1,0 +1,92 @@
+.upload-form-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f4f8;
+    background-image: url('https://static.jobscan.co/blog/uploads/AI-service-3-1.webp'); 
+  }
+
+  
+  .upload-form-container > * {
+    position: relative;
+    z-index: 2;
+  }
+  .upload-form-container::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 1;
+  }
+  .upload-form {
+    background: #fff;
+    padding: 2rem 3rem 2rem 1.2rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 440px;
+    height: 440px;
+    text-align: center;
+    align-items: center;
+    border:1px solid black;
+    
+  }
+  
+  #answer{
+    justify-content: space-evenly;
+    background-color: #fff;
+    border:1px solid black;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    height: 500px;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    text-align:justify;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  }
+
+  .upload-form h2 {
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .upload-form input[type="text"],
+  .upload-form input[type="file"],
+  .upload-form textarea {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .upload-form textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  .upload-form button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .upload-form button:hover {
+    background-color: #357ab7;
+  }
